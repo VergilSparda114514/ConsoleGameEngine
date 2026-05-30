@@ -1,5 +1,4 @@
--- premake5.lua
-workspace "New Project"
+workspace "Console Game Engine"
    architecture "x64"
    configurations { "Debug", "Release", "Dist" }
    startproject "App"

@@ -1,6 +1,9 @@
-#include "Core/Core.h"
+#include "Core/ConsoleGameEngine.h"
+#include "Core/Sprite.h"
+#include "Core/CharacterController.h"
 
 int main()
 {
-	Core::PrintHelloWorld();
+	Application& application = Singleton<Application>::Get();
+	application.Run();
 }
